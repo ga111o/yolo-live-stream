@@ -1,0 +1,5 @@
+env/
+yolo_dataset/
+train_images/
+__pycache__/
+runs/
