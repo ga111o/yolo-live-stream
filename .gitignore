@@ -4,3 +4,7 @@ train_images/
 __pycache__/
 runs/
 test_images/
+test/
+test_images/
+images/
+test_results/

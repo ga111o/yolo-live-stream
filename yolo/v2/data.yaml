@@ -1,0 +1,6 @@
+train: /home/ga111o/document/yolo_test/yolo/v2/images
+val: /home/ga111o/document/yolo_test/yolo/v2/images
+nc: 2
+names:
+- "\uBCF4\uB4DC\uB9C8\uCE74"
+- "\uCC45"

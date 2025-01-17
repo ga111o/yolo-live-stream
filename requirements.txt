@@ -3,3 +3,5 @@ fastapi
 uvicorn
 websockets
 icecream
+opencv-python
+pyyaml
