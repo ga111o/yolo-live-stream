@@ -10,3 +10,5 @@ images/
 test_results/
 yolo8n.pt
 yolo11n.pt
+test_1/
+test_2/
