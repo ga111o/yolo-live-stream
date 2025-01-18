@@ -44,21 +44,21 @@ def train_model():
     
     results = model.train(
         data='data.yaml',
-        epochs=200,
+        epochs=400,
         imgsz=640,
-        batch=16,
-        name='custom_model',
+        batch=1,
+        name='test',
         augment=True,
         degrees=40.0,
         scale=0.5,
         translate=0.1,
         shear=0.0,
-        perspective=0.001,
+        perspective=0.1,
         flipud=0.0,
         fliplr=0.5,
-        copy_paste=0.0,
+        copy_paste=0.5,
         hsv_h=0.015,
-        hsv_s=0.7,
+        hsv_s=0.4,
         hsv_v=0.4,
     )
     
