@@ -2,6 +2,7 @@ from ultralytics import YOLO
 import os
 import yaml
 from pathlib import Path
+import torch
 
 def prepare_dataset():
     img_dir = 'images'
@@ -48,6 +49,7 @@ def train_model():
         imgsz=640,
         batch=1,
         name='test',
+        device='0' if torch.cuda.is_available() else 'cpu',
         augment=True,
         degrees=40.0,
         scale=0.5,
