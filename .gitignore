@@ -8,3 +8,5 @@ test/
 test_images/
 images/
 test_results/
+yolo8n.pt
+yolo11n.pt

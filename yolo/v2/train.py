@@ -40,20 +40,20 @@ def prepare_dataset():
         yaml.dump(data_yaml, f, sort_keys=False)
 
 def train_model():
-    model = YOLO('yolov8n.pt')
+    model = YOLO("yolo11l.pt")    
     
     results = model.train(
         data='data.yaml',
-        epochs=100,
+        epochs=200,
         imgsz=640,
         batch=16,
         name='custom_model',
         augment=True,
-        degrees=20.0,
+        degrees=40.0,
         scale=0.5,
         translate=0.1,
         shear=0.0,
-        perspective=0.0,
+        perspective=0.001,
         flipud=0.0,
         fliplr=0.5,
         copy_paste=0.0,

@@ -1,0 +1,6 @@
+train: ./dataset/train/images
+val: ./dataset/train/images
+nc: 2
+names:
+- "\uBCF4\uB4DC\uB9C8\uCE74"
+- "\uCC45"
